@@ -31,8 +31,36 @@ void Roulette::ShowMenu()
 		}
 
 	}
-	setCursor(50, 5);
+	setCursor(2, 3);
 	std::cout <<"Gracz "<<_PhysPlayer->GetName()<<", Saldo konta: "<< _PhysPlayer->GetMoney()<<"$";
+
+	setCursor(18, 6); std::cout << "===========|			|===========|";
+	setCursor(18, 7); std::cout << "           |			|           |";
+	setCursor(18, 8); std::cout << "           |			|  1 do 18  |";
+	setCursor(18, 9); std::cout << "           |			|           |";
+	setCursor(18, 10); std::cout << "Pierwsze 12|			|===========|";
+	setCursor(18, 11); std::cout << "           |			|           |";
+	setCursor(18, 12); std::cout << "           |			|Nieparzyste|";
+	setCursor(18, 13); std::cout << "           |			|           |";
+	setCursor(18, 14); std::cout << "===========|			|===========|";
+	setCursor(18, 15); std::cout << "           |			|           |";
+	setCursor(18, 16); std::cout << "           |			|  Czerwony |";
+	setCursor(18, 17); std::cout << "           |			|  kolor    |";
+	setCursor(18, 18); std::cout << " Drugie 12 |			|===========|";
+	setCursor(18, 19); std::cout << "           |			|           |";
+	setCursor(18, 20); std::cout << "           |			|  Czarny   |";
+	setCursor(18, 21); std::cout << "           |			|  kolor    |";
+	setCursor(18, 22); std::cout << "===========|			|===========|";
+	setCursor(18, 23); std::cout << "           |			|           |";
+	setCursor(18, 24); std::cout << "           |			| Parzyste  |";
+	setCursor(18, 25); std::cout << "           |			|           |";
+	setCursor(18, 26); std::cout << "Trzecie 12 |			|===========|";
+	setCursor(18, 27); std::cout << "           |			|           |";
+	setCursor(18, 28); std::cout << "           |			| 19 do 36  |";
+	setCursor(18, 29); std::cout << "           |			|           |";
+	setCursor(18, 30); std::cout << "===========|			|===========|";
+	setCursor(2, 31);  std::cout << "|2do1|2do1|2do1|";
+
 	_getch();
 }
 
